@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;600;500;400&display=swap')
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background-color:  #3D3759;
+}
+
+.container {
+    /*min-height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #28243D;
+    height: 440px;
+    width: 100%;
+
+}
+
+nav img {
+    width: 12%;
+    
+}
+
+.wrapper {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    height: 90%;
+    background: #312D4B;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: #1311201A;
+    box-sizing: border-box;
+
+}
+
+.wrapper img {
+    width: 40%;
+}
+
+.wrapper h3 {
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.wrapper h5 {
+    position: relative;
+    font-size: 11px;
+    font-weight: 500;
+    color: #C1C2C4;
+    margin: 0;
+    padding: 5px 0 ;
+}
+
+/*
+.wrapper h2::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: ;
+
+}
+*/
+
+.wrapper form {
+    margin-top: 0;
+}
+
+.wrapper form .input-box {
+    height: 30px;
+    margin: 4px 0;
+    
+}
+
+
+form .input-box input {
+    height: 100%;
+    width: 95%;
+    outline: ;
+    padding: 0 0;
+    font-size: 10px;
+    font-weight: 400;
+    color: #C1C2C4;
+    border: transparent;
+    /*border-bottom-width: 2px;*/
+    background: transparent;
+    border-bottom: solid #E7E3FC3B;
+}
+
+form .policy {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    color: #C1C2C4;
+}
+
+form h5 {
+    color: #C1C2C4;
+    font-size: px;
+    font-weight: 500;
+    margin-left: px;
+}
+
+.input-box.button input {
+    color: #FFFFFF;
+    background: #F7A701;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+form .text h5 {
+    color: #C1C2C4;
+    width: 100%;
+    text-align: center;
+}
+
+form .text h5 a {
+    color: #F7A701;
+    text-decoration: none;
+}
+
+h4 {
+    margin: 0;
+    text-align: center;
+    width:100%; 
+    border-bottom: 1px solid #E7E3FC3B; 
+    line-height:0.1em; 
+    margin:10px 0 20px; 
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+h4 span { 
+    background: #312D4B; 
+    padding:0 15px; 
+}
+
+.Login-button img {
+    width: 5%;
+}
+
+.Login-button input {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #F7A701;
+    font-weight: 600;
+    size: 16px
+}
+
+.Login-button {
+    color: ;
+    background: #FEF4CBCC;
+    text-align: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 662px) {
+    nav {
+        text-align: center;
+    }
+}
+
+/*
+h4 { 
+    width:100%; 
+    text-align:center; 
+    border-bottom: 1px solid #E7E3FC3B; 
+    line-height:0.1em; 
+    margin:10px 0 20px; 
+    color: #FFFFFF;
+    font-size: small;
+} 
+
+ 
+h4 span { 
+    background: #312D4B; 
+    padding:0 10px; 
+}
+
