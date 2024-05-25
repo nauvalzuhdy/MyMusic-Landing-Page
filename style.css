@@ -1,10 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;600;500;400&display=swap')
 
-.wrapper {
-    width: 1440px;
-    height: 1024px;
-}
+
 
 * {
     padding: 0;
@@ -125,7 +122,6 @@ body,html {
 .login {
     border: 2px solid;
     background: #F7A701;
-    box-shadow: ;
     border-color: transparent;
     text-align: center;
     padding: 5px 0 5px 0;
