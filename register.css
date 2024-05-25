@@ -91,7 +91,6 @@ nav img {
 form .input-box input {
     height: 100%;
     width: 95%;
-    outline: ;
     padding: 0 0;
     font-size: 10px;
     font-weight: 400;
@@ -165,7 +164,6 @@ h4 span {
 }
 
 .Login-button {
-    color: ;
     background: #FEF4CBCC;
     text-align: center;
     margin: 0;
